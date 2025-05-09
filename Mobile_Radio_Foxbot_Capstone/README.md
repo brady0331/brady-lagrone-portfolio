@@ -26,6 +26,6 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 
 | PCB Schematic | System Block Diagram |
 |---------------|----------------------|
-| ![Power Schematic](./power_schematic.png) | ![System Diagram](./system_block.png) |
+| ![Power Schematic](./3.3V_Schematic.png) | ![System Diagram](./system_block.png) |
 
 ---
