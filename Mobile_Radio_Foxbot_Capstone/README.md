@@ -62,5 +62,11 @@ This file contains all the shcematics that are required for the rover, this has 
 ## PCB Design
 | Image|
 |---------------|
-![11.1V to 7.4V Converter](./7.4V_Schematic.png)|
+![PCB](./PCB.png)|
+
+| File | Description |
+|------|-------------|
+| [`IntegratedSchematic_v1.SchDoc`](./IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
+
+---
 
