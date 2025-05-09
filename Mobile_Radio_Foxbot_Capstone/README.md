@@ -25,14 +25,14 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 ## 📸 Images and Schematics
 | 3.3V Converter| 5.3V Converter|
 |---------------|---------------|
-| ![11.1V to 3.3V Converter](./3.3V_Schematic.png)|![11.1V to 5.3V Converter](./5.3V_Schematic.png)|
+| ![11.1V to 3.3V Converter](./Images/3.3V_Schematic.png)|![11.1V to 5.3V Converter](./5.3V_Schematic.png)|
 
 
 ---
 
 | 7.4V Converter|
 |---------------|
-![11.1V to 7.4V Converter](./7.4V_Schematic.png)|
+![11.1V to 7.4V Converter](./Images/7.4V_Schematic.png)|
 
 ---
 
@@ -43,7 +43,7 @@ These convters each designed for specific components on the Mobile Radio FoxBot.
 ### 🔋 Battery Monitior
 |Battery Monitior |
 |---------------|
-![Battery Monitior](./Battery_Monitor_Schematic.png)|
+![Battery Monitior](./Images/Battery_Monitor_Schematic.png)|
 
 ---
 The rover was built using 3 seperate 3 cell lipo batteries. Thus there was a need for three seperate battery monitoring system for each of the batteries that will comunicate to ESP32 and have battery charge, and discharge rate avaliable.
@@ -62,7 +62,7 @@ This file contains all the shcematics that are required for the rover, this has 
 ## PCB Design
 | Image|
 |---------------|
-![PCB](./PCB.png)|
+![PCB](./Images/PCB.png)|
 
 | File | Description |
 |------|-------------|
