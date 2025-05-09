@@ -24,7 +24,6 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 
 ## 📸 Images and Schematics
 ### 🔋 3.3V & 5.3V Converters
-|3.3V Converter | 5.3V Converter |
 |---------------|---------------|
 | ![11.1V to 3.3V Converter](./3.3V_Schematic.png)|![11.1V to 5.3V Converter](./5.3V_Schematic.png)|
 
@@ -32,12 +31,13 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 ---
 
 ### 🔋 7.4V Converter
-|7.4V Converter |
 |---------------|
 ![11.1V to 7.4V Converter](./7.4V_Schematic.png)|
 
 ---
+
 These convters each designed for specific components on the Mobile Radio FoxBot. Each of these are connected to a 3 cell Lipo battery, which operates at 11.1 V. First, the 3.3V converter for powering the ESP32. The 5.3V converter is for powering the Pixhawk, DTMF decoder, and the ultrasonic sensors. The 7.4V converter was constructed to power the Baofeng radio.
+
 ---
 
 ### 🔋 Battery Monitior
@@ -53,4 +53,4 @@ The rover was built using 3 seperate 3 cell lipo batteries. Thus there was a nee
 ### Integrated Schematics 
 | File | Description |
 |------|-------------|
-| `main.cpp` | Main embedded firmware (FreeRTOS-based) |
+| `IntegratedSchematicv1.~(30).SchDoc` | Altium Integrated Schematic |
