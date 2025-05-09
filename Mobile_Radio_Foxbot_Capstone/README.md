@@ -66,7 +66,7 @@ This file contains all the shcematics that are required for the rover, this has 
 
 | File | Description |
 |------|-------------|
-| [`IntegratedSchematic_v1.SchDoc`](./Altium_Files/IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
+| [`PCB1.PcbDoc`](./Altium_Files/PCB1.PcbDoc) | Altium Designer Integrated PCB File |
 
 ---
 
