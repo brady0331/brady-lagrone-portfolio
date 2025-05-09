@@ -25,7 +25,7 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 ## 📸 Images and Schematics
 
 |3.3V Converter | 5.3V Converter |
-|---------------|
+|---------------|---------------|
 | ![11.1V to 3.3V Converter](./3.3V_Schematic.png)|![11.1V to 5.3V Converter](./5.3V_Schematic.png)|
 
 ---
