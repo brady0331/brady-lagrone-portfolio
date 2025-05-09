@@ -46,3 +46,11 @@ These convters each designed for specific components on the Mobile Radio FoxBot.
 ![Battery Monitior](./Battery_Monitor_Schematic.png)|
 
 ---
+The rover was built using 3 seperate 3 cell lipo batteries. Thus there was a need for three seperate battery monitoring system for each of the batteries that will comunicate to ESP32 and have battery charge, and discharge rate avaliable.
+
+---
+
+### Integrated Schematics 
+| File | Description |
+|------|-------------|
+| `main.cpp` | Main embedded firmware (FreeRTOS-based) |
