@@ -54,7 +54,7 @@ The rover was built using 3 seperate 3 cell lipo batteries. Thus there was a nee
 
 | File | Description |
 |------|-------------|
-| [`IntegratedSchematic_v1.SchDoc`](./IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
+| [`IntegratedSchematic_v1.SchDoc`](./Altium_Files/IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
 
 ---
 This file contains all the shcematics that are required for the rover, this has all the integrated schematics.
@@ -66,7 +66,7 @@ This file contains all the shcematics that are required for the rover, this has 
 
 | File | Description |
 |------|-------------|
-| [`IntegratedSchematic_v1.SchDoc`](./IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
+| [`IntegratedSchematic_v1.SchDoc`](./Altium_Files/IntegratedSchematic_v1.SchDoc) | Altium Designer Integrated Schematic File |
 
 ---
 
