@@ -36,7 +36,7 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 
 ---
 
-These convters each designed for specific components on the Mobile Radio FoxBot. Each of these are connected to a 3 cell Lipo battery, which operates at 11.1 V. First, the 3.3V converter for powering the ESP32. The 5.3V converter is for powering the Pixhawk, DTMF decoder, and the ultrasonic sensors. The 7.4V converter was constructed to power the Baofeng radio.
+These convters each designed for specific components on the Mobile Radio FoxBot. Each of these are connected to a 3 cell Lipo battery, which operates at 11.1 V. First, the 3.3V converter for powering the ESP32. The 5.3V converter is for powering the Pixhawk, DTMF decoder, and the ultrasonic sensors. The 7.4V converter was constructed to power the Baofeng radio. The push to talk schematic was used so that the ESP32 could control when the push to talk is on or off on the Baofeng Radio, this was important for establishing communication between user and rover. This was done using the ground of the speaker and microphone and connecting them via a transistor. Then have the speaker connected to a DAC pin on the ESP32.
 
 ---
 
@@ -74,4 +74,4 @@ This file contains all the shcematics that are required for the rover, this has 
 ---
 
 ## 📸 ESP32 Programming
-The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio 
+The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio I esta
