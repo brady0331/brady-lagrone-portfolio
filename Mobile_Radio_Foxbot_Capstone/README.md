@@ -63,6 +63,8 @@ This file contains all the shcematics that are required for the rover, this has 
 | Image|
 |---------------|
 ![PCB](./Images/PCB.png)|
+|---------------|
+![PCB](./Images/ESP32Pinout.png)|
 
 | File | Description |
 |------|-------------|
@@ -74,4 +76,4 @@ This file contains all the shcematics that are required for the rover, this has 
 ---
 
 ## 📸 ESP32 Programming
-The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio I esta
+The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio I established the Push to Talk control as seen in the [PTT Schemaitc](#-Images-and-Schematics) for more details.
