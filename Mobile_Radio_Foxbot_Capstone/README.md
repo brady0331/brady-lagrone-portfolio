@@ -73,3 +73,5 @@ This file contains all the shcematics that are required for the rover, this has 
 
 ---
 
+## 📸 ESP32 Programming
+The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio 
