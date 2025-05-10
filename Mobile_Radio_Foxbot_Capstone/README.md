@@ -64,7 +64,7 @@ This file contains all the shcematics that are required for the rover, this has 
 |---------------|
 ![PCB](./Images/PCB.png)|
 |---------------|
-![PCB](./Images/ESP32Pinout.png)|
+![PCB](./Images/ESP32_Pinout.png)|
 
 | File | Description |
 |------|-------------|
