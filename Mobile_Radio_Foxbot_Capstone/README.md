@@ -30,9 +30,9 @@ The Mobile Radio FoxBot is a battery-powered autonomous system designed for high
 
 ---
 
-| 7.4V Converter|
-|---------------|
-![11.1V to 7.4V Converter](./Images/7.4V_Schematic.png)|
+| 7.4V Converter| Push to Talk Circuit |
+|---------------|---------------|
+![11.1V to 7.4V Converter](./Images/7.4V_Schematic.png)|![Push to Talk Circuit](./Images/PTT_Schematic.png)|
 
 ---
 
