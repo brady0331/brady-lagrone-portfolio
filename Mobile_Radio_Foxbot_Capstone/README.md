@@ -67,6 +67,9 @@ This file contains all the shcematics that are required for the rover, this has 
 | File | Description |
 |------|-------------|
 | [`PCB1.PcbDoc`](./Altium_Files/PCB1.PcbDoc) | Altium Designer Integrated PCB File |
+| [`Schematic_Library.SchLib`](./Altium_Files/Schematic_Library.SchLib) | Altium Designer Schematic Library |
+| [`PCB_Library.PcbLib`](./Altium_Files/PCB_Library.PcbLib) | Altium Designer PCB Library |
+| [`CapStone_BOM.xlsx`](./Altium_Files/CapStone_BOM.xlsx) | Bill of Materials for PCB |
 
 ---
 
