@@ -108,3 +108,6 @@ This diagram outlines the **mode control logic** for an embedded ESP-based syste
 
 The `Health Mode` functions as the core of the finite state machine (FSM), continuously monitoring battery status, sensor activity, GPS positioning, and communication signals. It determines the appropriate operational mode and ensures the system responds safely and effectively under changing conditions. If an error or degraded performance is detected, Health Mode transitions the system to a safe or reduced-functionality state (e.g., stop movement, conserve power).
 
+| File | Description |
+|------|-------------|
+| [`FoxBotCode_Morse_BatMont.c`](./ProgramFiles/FoxBotCode_Morse_BatMont.c) | Code for Foxbot implementation |
