@@ -77,3 +77,7 @@ This file contains all the shcematics that are required for the rover, this has 
 
 ## 📸 ESP32 Programming
 The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio I established the Push to Talk control as seen in the [PTT Schemaitc](#-Images-and-Schematics). Then, having the DTMF decoder outputing bits in binary to the pins of the ESP32 this would allow the ESP to understand the signal being sent to the Foxbot. 
+
+|ESP32 Operation |
+|---------------|
+![ESP32 Operation](./Images/ESP32_Program.png)|
