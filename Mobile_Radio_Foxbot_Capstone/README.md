@@ -78,6 +78,33 @@ This file contains all the shcematics that are required for the rover, this has 
 ## 📸 ESP32 Programming
 The ESP32 played an essintial part in the Mobile Radio Foxbot. I began by setting up the general flow that the program will follow. Because our communication is via Baofeng radio I established the Push to Talk control as seen in the [PTT Schemaitc](#-Images-and-Schematics). Then, having the DTMF decoder outputing bits in binary to the pins of the ESP32 this would allow the ESP to understand the signal being sent to the Foxbot. 
 
-|ESP32 Operation |
-|---------------|
-![ESP32 Operation](./Images/ESP32_Program.png)|
+## 📡 ESP Setup and Communication — Mode Diagram
+![ESP32 Operation](./Images/ESP32_Program.png)
+
+
+
+This diagram outlines the **mode control logic** for an embedded ESP-based system used in the Mobile Radio FoxBot project. The system operates using multiple modes driven by health checks, sensor inputs, and remote commands via Push-to-Talk (PTT) communication. At the center is `Health Mode`, which monitors the system's state and directs transitions between modes based on mission context and internal diagnostics.
+
+---
+
+### 🔄 Mode Descriptions
+
+| Mode | Description |
+|------|-------------|
+| **Mode 0** | Initialize System — Starts up and initializes hardware, communication protocols, and sensor systems. |
+| **Mode 1** | Intermittent PTT, Continuous Movement — The robot moves continuously and listens intermittently for PTT input. |
+| **Mode 2** | Intermittent PTT, Stationary — Robot stays still while occasionally listening for PTT signals. |
+| **Mode 3** | Continuous PTT, Stationary — Stationary mode with constant monitoring of PTT input. |
+| **Mode 4** | Continuous PTT, Continuous Movement — Continuous motion with constant PTT signal listening. |
+| **Mode 5** | Intermittent PTT, Intermittent Movement — Alternates between moving and listening to PTT input. |
+| **Mode 6** | Battery Monitor Check — Runs diagnostics to check battery status and performance. |
+| **Mode 7** | Ultrasonic Check — Uses ultrasonic sensors to detect and respond to nearby obstacles. |
+| **Mode 8** | GPS Coordinates — Acquires or transmits GPS data for position tracking or navigation. |
+| **Mode 9** | Turn Off — Shuts down the system safely. |
+
+---
+
+### 🧠 Health Mode as Central Control
+
+The `Health Mode` functions as the core of the finite state machine (FSM), continuously monitoring battery status, sensor activity, GPS positioning, and communication signals. It determines the appropriate operational mode and ensures the system responds safely and effectively under changing conditions. If an error or degraded performance is detected, Health Mode transitions the system to a safe or reduced-functionality state (e.g., stop movement, conserve power).
+
