@@ -104,7 +104,7 @@ This project demonstrates an optimized approach to BLDC motor control, reducing 
 
 ## 📎 Project Assets
 
-- Full report: [`ECEN_441_Term_Project_Report.pdf`](./ECEN%20441%20Term%20Project%20Report%20.docx%20(1).pdf)
+- Full report: [`ECEN_441_Term_Project_Report.pdf`](./ECEN 441 Term Project Report .dox (1).pdf)
 - Timing Diagrams and Logic Tables
 - H-Bridge Circuit Schematics
 - Truth Tables for Control Logic
